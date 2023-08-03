@@ -1,17 +1,18 @@
 import { Link } from "react-router-dom";
-import img from "../Images/logo.jpg";
 
 export default function Nav() {
   return (
     <nav className="nav--container">
       <Link to="/">
-        <img src={img} alt="Logo" />
+        <img src="Images/logo.jpg" alt="Logo" />
       </Link>
       <ul>
         <li>
           <Link to="/shelters">Shelters</Link>
         </li>
-        <li>About us</li>
+        <li>
+          <Link to="/about">About us</Link>
+        </li>
         <li>Donating</li>
       </ul>
       <div className="nav--login-box">

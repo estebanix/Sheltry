@@ -1,8 +1,8 @@
-import background from "../Images/hero.jpg"
+
 
 export default function MainHero(){
 
-    const styles = {backgroundImage: `url(${background})`};
+    const styles = {backgroundImage: `url(Images/hero.jpg)`};
     return(
         <main className="main-hero--container" style={styles}>
             

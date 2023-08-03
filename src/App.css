@@ -54,13 +54,89 @@ a{
   font-size: 14px;
 }
 
-.main-shelter--container{
+.main-shelter--container, .main-about--container{
   width: 100%;
   height: auto;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
 }
 
-.main-shelter--container h1{
-  margin: 40px auto;
+.main-shelter--container h1, .main-about--container h1{
+  margin: 40px 0;
   font-size: 40px;
+}
+
+.main-shelter--container h4, .main-about--container h4{
+  font-size: 1em;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.shelters--container{
+  width: 80%;
+  height: auto;
+  min-height: 100vh;
+  padding: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.312);
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-auto-rows: 280px; 
+  gap: 40px;
+  justify-items: center;
+}
+
+.shelter--box {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  transition: 0.75s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+
+.shelter--box:hover {
+  transform: scale(1.04);
+}
+
+.shelter--desc {
+  width: 100%;
+  height: 36%;
+  background-color: #f6bd604a;
+  margin-top: auto;
+  border-radius: 0 0 6px 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px 0;
+  font-size: 1.3em;
+  text-shadow: 1px 1px 2px black;
+}
+
+.main-about--container img{
+  width: 40%;
+  height: auto;
+}
+
+.help--btn{
+  width: 200px;
+  height: 80px;
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 4px;
+  transition: 0.75s ease-in-out;
+  cursor: pointer;
+}
+
+.help--btn:hover{
+  background-color: #36AF8C;
+  color: white;
 }

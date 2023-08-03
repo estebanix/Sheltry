@@ -1,10 +1,22 @@
 [
     {
         "title" : "Tuláčik",
-        "location" : "Praha"
+        "location" : "Praha",
+        "img" : "shelter1.jpg"
     },
     {
         "title" : "Mačiačik",
-        "location" : "Brno"
+        "location" : "Brno",
+        "img" : "shelter2.jpg"
+    },
+    {
+        "title" : "Bobáčik",
+        "location" : "Zlín",
+        "img" : "shelter3.jpg"
+    },
+    {
+        "title" : "Ňufáčik",
+        "location" : "Brno",
+        "img" : "shelter4.jpg"
     }
 ]
