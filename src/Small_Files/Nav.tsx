@@ -13,7 +13,9 @@ export default function Nav() {
         <li>
           <Link to="/about">About us</Link>
         </li>
-        <li>Donating</li>
+        <li>
+          <Link to="/donating">Donating</Link>
+        </li>
       </ul>
       <div className="nav--login-box">
         <h3>Login</h3>
