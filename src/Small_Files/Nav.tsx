@@ -18,7 +18,9 @@ export default function Nav() {
         </li>
       </ul>
       <div className="nav--login-box">
-        <h3>Login</h3>
+        <h3>
+          <Link to="/login">Login</Link>
+        </h3>
         |
         <h3>Register</h3>
       </div>
