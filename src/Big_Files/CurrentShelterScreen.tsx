@@ -1,15 +1,11 @@
-import {useContext} from "react";
-import { Context } from "../Context/Context";
 import Nav from "../Small_Files/Nav";
+import MainCurrentShelter from "../Small_Files/Shelter/MainCurrentShelter";
 
 export default function CurrentDefaultScreen(){
-    const {currentShelterData} = useContext(Context);
-
     return(
         <main>
             <Nav />
-            {currentShelterData.title}
-            <h1>{currentShelterData.location}</h1>
+            <MainCurrentShelter />
         </main>
     );
 }

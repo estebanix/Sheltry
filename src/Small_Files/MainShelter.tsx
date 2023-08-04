@@ -12,7 +12,7 @@ export default function MainShelter(){
 
     const shelters = sheltersData.map((dat) => {
         const styles = {backgroundImage: `url(Images/Shelters/${dat.img})`};
-        return <div className="shelter--box" style={styles}>
+        return <div className="shelter--box" style={styles} key={dat.id}>
                 <div className="shelter--desc">
                     <Link to="/current_shelter" onClick={() => handleCurrentData(dat)}>
                         <h3>{dat.title}</h3>
