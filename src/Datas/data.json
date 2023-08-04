@@ -3,27 +3,95 @@
         "title" : "Tuláčik",
         "location" : "Praha",
         "img" : "shelter1.jpg",
-        "description" : "Tuláčik's Safe Haven is a non-profit animal shelter dedicated to providing a safe and loving environment for abandoned and abused animals. Our team of compassionate volunteers works tirelessly to rescue, rehabilitate, and rehome animals of all breeds and sizes. We believe that every animal deserves a chance at a happy life, and we strive to find loving forever homes for our furry residents. At Tuláčik's Safe Haven, we also prioritize community outreach and education to promote responsible pet ownership and animal welfare."
+        "description" : "Tuláčik's Safe Haven is a non-profit animal shelter dedicated to providing a safe and loving environment for abandoned and abused animals. Our team of compassionate volunteers works tirelessly to rescue, rehabilitate, and rehome animals of all breeds and sizes. We believe that every animal deserves a chance at a happy life, and we strive to find loving forever homes for our furry residents. At Tuláčik's Safe Haven, we also prioritize community outreach and education to promote responsible pet ownership and animal welfare.",
+        "stats" : [
+            {
+                "id" : 1,
+                "icon" : "faPaw",
+                "count" : "43"
+            },
+            {
+                "id" : 2,
+                "icon" : "faHandHoldingDollar",
+                "count" : "1066"
+            },
+            {
+                "id" : 3,
+                "icon" : "faHeart",
+                "count" : "7"
+            }
+        ]
     },
     {   
         "id" : 2,
         "title" : "Mačiačik",
         "location" : "Brno",
         "img" : "shelter2.jpg",
-        "description" : "Mačiačik Feline Rescue Center is an exclusive shelter specializing in the rescue and care of cats and kittens. Our facility is designed to provide a stress-free and enriching environment for our feline friends while they await adoption. Our dedicated team of cat enthusiasts ensures that each cat receives personalized attention and medical care. Mačiačik Feline Rescue Center is committed to finding the perfect match between each cat and their new family, ensuring a lifelong bond of love and companionship."
+        "description" : "Mačiačik Feline Rescue Center is an exclusive shelter specializing in the rescue and care of cats and kittens. Our facility is designed to provide a stress-free and enriching environment for our feline friends while they await adoption. Our dedicated team of cat enthusiasts ensures that each cat receives personalized attention and medical care. Mačiačik Feline Rescue Center is committed to finding the perfect match between each cat and their new family, ensuring a lifelong bond of love and companionship.",
+        "stats" : [
+            {
+                "id" : 1,
+                "icon" : "faPaw",
+                "count" : "82"
+            },
+            {
+                "id" : 2,
+                "icon" : "faHandHoldingDollar",
+                "count" : "1453"
+            },
+            {
+                "id" : 3,
+                "icon" : "faHeart",
+                "count" : "16"
+            }
+        ]
     },
     {   
         "id" : 3,
         "title" : "Bobáčik",
         "location" : "Zlín",
         "img" : "shelter3.jpg",
-        "description": "Bobáčik's Animal Sanctuary is a unique haven for senior and special needs dogs. Our shelter is a peaceful retreat where senior dogs and those with medical challenges can live out their golden years in comfort and dignity. Our experienced caregivers provide specialized care, including veterinary attention, physical therapy, and dietary support, tailored to the individual needs of each resident. At Bobáčik's Animal Sanctuary, we celebrate the wisdom and charm that come with age and seek to find forever homes or loving foster families for our senior companions."
+        "description": "Bobáčik's Animal Sanctuary is a unique haven for senior and special needs dogs. Our shelter is a peaceful retreat where senior dogs and those with medical challenges can live out their golden years in comfort and dignity. Our experienced caregivers provide specialized care, including veterinary attention, physical therapy, and dietary support, tailored to the individual needs of each resident. At Bobáčik's Animal Sanctuary, we celebrate the wisdom and charm that come with age and seek to find forever homes or loving foster families for our senior companions.",
+        "stats" : [
+            {
+                "id" : 1,
+                "icon" : "faPaw",
+                "count" : "106"
+            },
+            {
+                "id" : 2,
+                "icon" : "faHandHoldingDollar",
+                "count" : "1271"
+            },
+            {
+                "id" : 3,
+                "icon" : "faHeart",
+                "count" : "27"
+            }
+        ]
     },
     {
         "id" : 4,
         "title" : "Ňufáčik",
         "location" : "Brno",
         "img" : "shelter4.jpg",
-        "description" : "Ňufáčik's Feathered Haven is a sanctuary devoted to the well-being of exotic birds. Our shelter provides a haven for parrots and other feathered friends rescued from difficult circumstances, such as neglect or abandonment. We are committed to enriching the lives of our avian residents through spacious enclosures, stimulating toys, and expert avian care. At Ňufáčik's Feathered Haven, we advocate for responsible bird ownership and work towards raising awareness about the unique needs and challenges of our feathered companions."
+        "description" : "Ňufáčik's Feathered Haven is a sanctuary devoted to the well-being of exotic birds. Our shelter provides a haven for parrots and other feathered friends rescued from difficult circumstances, such as neglect or abandonment. We are committed to enriching the lives of our avian residents through spacious enclosures, stimulating toys, and expert avian care. At Ňufáčik's Feathered Haven, we advocate for responsible bird ownership and work towards raising awareness about the unique needs and challenges of our feathered companions.",
+        "stats" : [
+            {
+                "id" : 1,
+                "icon" : "faPaw",
+                "count" : "58"
+            },
+            {
+                "id" : 2,
+                "icon" : "faHandHoldingDollar",
+                "count" : "2145"
+            },
+            {
+                "id" : 3,
+                "icon" : "faHeart",
+                "count" : "10"
+            }
+        ]
     }
 ]
