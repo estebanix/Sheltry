@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
+import {useContext} from "react";
+import { Context } from "../Context/Context";
 
 export default function Nav() {
+  const {loggedIn} = useContext(Context);
+  
   return (
     <nav className="nav--container">
       <Link to="/">
@@ -18,11 +22,27 @@ export default function Nav() {
         </li>
       </ul>
       <div className="nav--login-box">
-        <h3>
-          <Link to="/login">Login</Link>
-        </h3>
-        |
-        <h3>Register</h3>
+      {loggedIn ? (
+          <>
+            <h3>
+              <Link to="/profile">Profile</Link>
+            </h3>
+            |
+            <h3>
+              <Link to="/logout">Logout</Link>
+            </h3>
+          </>
+        ) : (
+          <>
+            <h3>
+              <Link to="/login">Login</Link>
+            </h3>
+            |
+            <h3>
+              <Link to="/registration">Registration</Link>
+            </h3>
+          </>
+        )}
       </div>
     </nav>
   );

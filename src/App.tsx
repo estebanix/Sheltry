@@ -6,6 +6,8 @@ import ContextProvider from './Context/Context';
 import AboutScreen from './Big_Files/AboutScreen';
 import DonatingScreen from './Big_Files/DonatingScreen';
 import LoginScreen from './Big_Files/LoginScreen';
+import RegistrationScreen from './Big_Files/RegistrationScreen';
+import ProfileScreen from './Big_Files/ProfileScreen';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path='/about' element={<AboutScreen />} />
         <Route path='/donating' element={<DonatingScreen />} />
         <Route path='/login' element={<LoginScreen />} />
+        <Route path='/registration' element={<RegistrationScreen />} />
+        <Route path='/profile' element={<ProfileScreen />} />
       </Routes>
       </ContextProvider>  
     </>

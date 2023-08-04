@@ -29,9 +29,11 @@ a{
 
 .main-hero--container{
   width: 100%;
-  height: 60vh;
-  background-size: cover;
+  height: calc(100vh - 60px);
+  background-size: 40%;
+  background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 }
 
 .nav--container ul{
@@ -165,4 +167,64 @@ a{
 
 .login-form--box form{
   font-size: 1.4em;
+}
+
+.regi--form{
+  margin-left: auto;
+}
+
+.form--container input{
+  border: none;
+  width: 300px;
+  border-bottom: 1px solid black;
+}
+
+.form--btn{
+  width: 60px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: transparent;
+  margin-top: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form--btn:hover{
+  background-color: #36AF8C;
+  color: white;
+}
+
+input:focus{
+  outline: none;
+  border-bottom: 1px solid black ;
+}
+
+.main-profile--container{
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.info-bar--container{
+  width: 300px;
+  height: 80%;
+  background-color: #36af8d50;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.info-bar--container img{
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.info-bar--container h3{
+  font-size: 1.5em;
 }

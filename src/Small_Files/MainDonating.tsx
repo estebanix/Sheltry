@@ -9,7 +9,7 @@ export default function MainDonating(){
             <h4>We believe in the power of collective compassion. By bringing together volunteers and shelters, we create a caring community dedicated to the well-being of shelter animals.</h4>
             <h4>Join us today in making a difference. Together, we can bring joy and comfort to the lives of countless animals and support the shelters that tirelessly care for them. Thank you for being a part of our mission to spread love and kindness to those who need it most.</h4>
             <img src="Images/donating.svg" />
-            <Link to="/register"><button className="help--btn">Register now!</button></Link>
+            <Link to="/registration"><button className="help--btn">Register now!</button></Link>
         </main>
     );
 }
