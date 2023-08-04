@@ -1,17 +1,24 @@
+import { Link } from "react-router-dom";
 import { Context } from "../Context/Context";
 import { useContext } from "react";
 
+
 export default function MainShelter(){
-    const {sheltersData} = useContext(Context);
+    const {sheltersData, setCurrentShelterData} = useContext(Context);
+
+    const handleCurrentData = (e) => {
+        setCurrentShelterData(e)
+    }
 
     const shelters = sheltersData.map((dat) => {
         const styles = {backgroundImage: `url(Images/Shelters/${dat.img})`};
-
         return <div className="shelter--box" style={styles}>
-            <div className="shelter--desc">
-                <h3>{dat.title}</h3>
-                <h4>{dat.location}</h4>
-            </div>
+                <div className="shelter--desc">
+                    <Link to="/current_shelter" onClick={() => handleCurrentData(dat)}>
+                        <h3>{dat.title}</h3>
+                        <h4>{dat.location}</h4>
+                    </Link>
+                </div>
         </div>
     })
     return(

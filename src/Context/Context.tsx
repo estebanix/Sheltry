@@ -1,32 +1,36 @@
 import { createContext, useState } from 'react';
-import ShletersData from "../Datas/data.json" 
+import SheltersData from "../Datas/data.json" // Make sure the import path is correct
 
 export interface ContextType {
     sheltersData: any[];
-    setSheltersData: (data: any) => void;
+    setSheltersData: (data: any) => void; // Fix the function name here
     loggedIn: boolean;
     setLoggedIn: (data: boolean) => void;
+    currentShelterData: any; // Fix the variable name here
+    setCurrentShelterData: (data: any) => void; // Fix the function name here
 }
 
 export const Context = createContext<ContextType>({} as ContextType);
 
 const ContextProvider = (props: any) => {
-  
-    const [sheltersData, setShletersData] = useState(ShletersData);
-    const [loggedIn, setLoggedIn] = useState(false)
+    const [sheltersData, setSheltersData] = useState(SheltersData); // Fix the function name here
+    const [loggedIn, setLoggedIn] = useState(false);
+    const [currentShelterData, setCurrentShelterData] = useState({});
 
-  return (
-    <Context.Provider
-      value={{
-        sheltersData,
-        setShletersData,
-        loggedIn,
-        setLoggedIn
-      }}
-    >
-      {props.children}
-    </Context.Provider>
-  );
+    return (
+        <Context.Provider
+            value={{
+                sheltersData,
+                setSheltersData, 
+                loggedIn,
+                setLoggedIn,
+                currentShelterData,
+                setCurrentShelterData
+            }}
+        >
+            {props.children}
+        </Context.Provider>
+    );
 };
 
 export default ContextProvider;

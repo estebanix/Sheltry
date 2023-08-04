@@ -8,6 +8,7 @@ import DonatingScreen from './Big_Files/DonatingScreen';
 import LoginScreen from './Big_Files/LoginScreen';
 import RegistrationScreen from './Big_Files/RegistrationScreen';
 import ProfileScreen from './Big_Files/ProfileScreen';
+import CurrentShelterScreen from './Big_Files/CurrentShelterScreen';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/login' element={<LoginScreen />} />
         <Route path='/registration' element={<RegistrationScreen />} />
         <Route path='/profile' element={<ProfileScreen />} />
+        <Route path='/current_shelter' element={<CurrentShelterScreen />} />
       </Routes>
       </ContextProvider>  
     </>
